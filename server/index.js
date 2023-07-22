@@ -6,7 +6,6 @@ import dotenv from "dotenv";
 import multer from "multer";
 import helmet from "helmet";
 import morgan from "morgan";
-import Path from "path";
 import { fileURLToPath } from "url";
 import path from "path";
 import { register } from "./controllers/auth.js";
